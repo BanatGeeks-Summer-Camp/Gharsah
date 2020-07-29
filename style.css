@@ -1,1 +1,331 @@
-..........
+body {
+  padding: 0;
+  margin: 0;
+}
+.menu {
+  display: flex;
+  height: 6rem;
+  align-items: center;
+  justify-content: center;
+  padding: 0 6rem;
+  box-shadow: 0px 8px 16px #00000014;
+}
+
+.menu-link {
+  text-decoration: none;
+  margin-left: 2rem;
+  color: #000000;
+  font-family: 'Cairo', sans-serif;
+  font-size: 1rem;
+}
+.menu-logo {
+  flex-grow: 3;
+  margin-right: 2rem;
+  color: #ba7e35;
+}
+
+.menu-button {
+  background-color: transparent;
+  width: 8rem;
+  height: 48px;
+  border: 1px solid #ba7e35;
+  color: #ba7e35;
+  font-family: 'Cairo', sans-serif;
+  font-weight: 900;
+  font-size: 1rem;
+  margin-right: 4rem;
+}
+
+
+
+
+.h1-style{
+  font: Bold 60px/112px var(--unnamed-font-family-cairo);
+letter-spacing: var(--unnamed-character-spacing-0);
+color: var(--unnamed-color-000000);
+text-align: right;
+font: Bold 60px/112px Cairo;
+letter-spacing: 0px;
+color: #000000;
+opacity: 1;
+font-family: 'Cairo', sans-serif;
+}
+
+.image-1{
+  margin-left: 20px;
+  width: 360px;
+  height: 375px;
+}
+.image-2{
+  margin-left: 20px;
+  width: 360px;
+  height: 375px;
+}
+.image-3{
+  margin-left: 20px;
+  width: 360px;
+  height: 375px;
+}
+.image-all{
+  display: flex;
+  margin-top:-30px;
+
+}
+.h3-s{
+  font: Bold var(--unnamed-font-size-20)/var(--unnamed-line-spacing-37) var(--unnamed-font-family-cairo);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-000000);
+  text-align: right;
+  font: Bold 20px/37px Cairo;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+.p-s{
+  font: Regular var(--unnamed-font-size-18)/var(--unnamed-line-spacing-33) var(--unnamed-font-family-cairo);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-000000);
+  text-align: right;
+  font: Regular 18px/33px Cairo;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  font-size: 24px;
+padding-bottom: 20px;}
+.image-s{
+  display: flex;
+ padding-right: 500px;
+}
+ .imge{
+   height: 20px;
+   width: 20px;
+ }
+ .image-li{
+
+  background: transparent url('img/Brain.png') 0% 0% no-repeat padding-box;
+  opacity: 1;
+  margin-top: 10%;
+  margin-right: 60%;
+}
+ .p-s1{
+  padding: 0 3rem;
+  margin-top: 0;
+  color: hsl(139, 71%, 27%);
+ }
+ 
+ 
+.h1-sty{
+
+  padding: 0 3rem;
+}
+.style-all{
+  flex-direction: row;
+  display: flex;
+}
+.input-st{
+  display: flex;
+  flex-direction: column;
+ margin-top: 20%;
+ margin-right: 50%;
+}
+input[type=text] {
+  width: 47%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+ 
+
+}
+.div-im{
+  margin-left: 50%;
+  margin-top:-25%;
+  padding: 0 8rem;
+  
+}
+.box{
+  box-shadow: 2px 5px 3px slategrey;
+}
+.head{
+  padding: 0 8rem;
+}
+.head2{
+  height: 100px;
+ 
+}
+input[type=button] {
+  width: 47%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  background-color: tomato;
+  font-size: 20px;
+ 
+
+}
+
+
+
+
+
+.home-page__image{
+  height:400px;
+display: flex;
+flex-direction: row;
+margin-top: 70px;
+margin-right:50px;
+position: absolute;
+  left: 0;
+  top: 4px;
+  width: 800px;
+  z-index: -1;
+  
+}
+.home-page__headings {
+  color: #1d1010;
+  font-size: 1rem;
+  margin-right: 9rem;
+  margin-top: 800px;
+  margin-top:-0.2%;
+  padding: 3rem 1rem;
+  margin-left: 500px;
+  
+}
+.home-page__headings-box {
+  background-color: #fff;
+  width: 36rem;
+  font-size: 3.2rem;
+  margin-right: 8rem;
+  font-family: 'Cairo', sans-serif;
+  margin-top: 3.4rem;
+  clip-path: polygon(
+    20% 0,
+    100% 0,
+    100% 100%,
+    40% 100%,
+    40% 100%,
+    0 100%,
+    0 40%,
+    20% 40%);
+}
+.home-page__paragraph {
+  margin-block-start: 0;
+  margin-block-end: 10px;
+  margin-inline-start: 0px;
+  margin-inline-end: 10px;
+  line-height: 4rem;
+}
+.home-page__body{
+  
+  display: flex;
+}
+.h2-style{
+  font: Bold 60px/112px var(--unnamed-font-family-cairo);
+letter-spacing: var(--unnamed-character-spacing-0);
+color: var(--unnamed-color-000000);
+text-align: right;
+font: Bold 60px/112px Cairo;
+letter-spacing: 0px;
+color: #000000;
+opacity: 1;
+font-family: 'Cairo', sans-serif;
+}
+.image-oll{
+  display: flex;
+  margin-top:-30px;
+}
+.image-g{
+  margin-left: 20px;
+  width: 360px;
+  height: 375px;
+}
+.image-l{
+  margin-left: 20px;
+  width: 360px;
+  height: 375px;
+}
+.image-r{
+  margin-left: 20px;
+  width: 360px;
+  height: 375px;
+}
+.h3-n{
+  font: Bold var(--unnamed-font-size-20)/var(--unnamed-line-spacing-37) var(--unnamed-font-family-cairo);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-000000);
+  text-align: right;
+  font: Bold 20px/37px Cairo;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+.h4-style{
+  font: Bold 60px/112px var(--unnamed-font-family-cairo);
+letter-spacing: var(--unnamed-character-spacing-0);
+color: var(--unnamed-color-000000);
+text-align: right;
+font: Bold 60px/112px Cairo;
+letter-spacing: 0px;
+color: #000000;
+opacity: 1;
+font-family: 'Cairo', sans-serif;
+}
+.h5-n{
+  font: Bold var(--unnamed-font-size-20)/var(--unnamed-line-spacing-37) var(--unnamed-font-family-cairo);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-000000);
+  text-align: right;
+  font: Bold 20px/37px Cairo;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+padding-right: 40px;
+}
+.h8-style{
+  font: Bold 60px/112px var(--unnamed-font-family-cairo);
+letter-spacing: var(--unnamed-character-spacing-0);
+color: var(--unnamed-color-000000);
+text-align: right;
+font: Bold 60px/112px Cairo;
+letter-spacing: 0px;
+color: #000000;
+opacity: 1;
+font-family: 'Cairo', sans-serif;
+}
+.image-lll{
+  display: flex;
+  margin-top:-30px;
+  
+}
+.p-x{
+
+  font: Regular var(--unnamed-font-size-18)/var(--unnamed-line-spacing-33) var(--unnamed-font-family-cairo);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-000000);
+  text-align: right;
+  font: Regular 18px/33px Cairo;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  font-size: 24px;
+padding-bottom: 20px;
+padding-right: 25px;
+
+}
+
+.head8{
+  padding: -50rem -15rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
